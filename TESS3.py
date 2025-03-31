@@ -84,8 +84,8 @@ def sendEmail(to, content):
         server.ehlo()
         server.starttls()
         
-        sender_email = "shriyadhiman02@gmail.com"
-        sender_password = "ruqo bbvz eoin bnox"
+        sender_email = "your-email-id"
+        sender_password = "your-app-password"
 
         server.login(sender_email, sender_password)
         server.sendmail(sender_email, to, content)
